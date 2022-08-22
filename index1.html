@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<style>
+  *{
+    margin: 0 auto;
+  }
+/* hearde design */
+.lefthead a{
+    margin-left: 20%;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.Register a{
+    float: right;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-right: 20%;
+
+}
+/* navbar design */
+.nav{
+  background-color: darkblue;
+  margin-left: -0.9%;
+  overflow: hidden;
+  border: 4px solid #fff;
+}
+.navbar-brand{
+  margin-left: 18.3%;
+  padding: 10px;
+}
+ul{
+ 
+  list-style-type: none;
+  margin-left: 10px;
+  padding: 20px;
+  
+}
+ul li{
+  display: inline;
+  padding: 10px;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+}
+.submenulist h5{
+  margin-left: 45px;
+  color: darkblue;
+}
+.submenu{
+  position: absolute;
+  background-color: #ccc;
+  width: 100%;
+  margin-left: -26%;
+ 
+  margin-top: 25px;
+  padding: 10px;
+  height: 500px;
+  color: #fff;
+  border: 4px solid #fff;
+  display: none;
+}
+.submenulist{
+  width: 70%;
+  float: left;
+  
+}
+.submenulist li a{
+  float: none;
+  display: block;
+  margin-left: 20%;
+   color: #1078bf;
+}
+ul li:hover .submenulist li a{
+  
+  color: #074c6b;
+}
+ul li .submenulist li a{
+  color: #1078bf;
+  font-weight: bold;
+}
+ul li:hover .submenu{
+  display: block;
+}
+ ul{
+  list-style-type: none;
+ float: right;
+  padding: 10px;
+  margin-right: 20%;
+}
+ul li{
+  display: inline;
+}
+
+
+</style>
+
+  </head>
+<body>
+  <!-- header start -->
+  <div class="topbar Container-fluid">
+    <div class="container">
+        <div class="row d-flex p-2">
+            <div class="col-lg-6 col-12 lefthead">
+                <a href="#" class="text-dark ">Personal</a> 
+                
+            </div>
+            <div class="col-lg-6 col-12 Register ml-auto righthead ">
+                <a href="#" class="text-dark ">Sign in or Register</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- nav bar start -->
+  <div class="nav">
+    <a class="navbar-brand text-white" href="#" style="font-size: 35px;">O<sub>2</sub></a>
+  <ul>
+    <li><a href="#">Shop</a>
+    <div class="submenu shadow">
+      <div class="row">
+    <div class="col-md-3">
+      
+      <ul class="submenulist">
+        <h5>Phones</h5>
+       <li><a  class="list-group-item" href="#">Phones</a></li> 
+       <li> <a  class="list-group-item" href="#">Upgrades</a></li>
+       <li><a   class="list-group-item"href="#">Apple iPhone</a></li>
+        <li><a  class="list-group-item" href="#">Samsung Galaxy Z Fold4</a></li>
+        <li><a  class="list-group-item" href="#">Android phones</a></li>
+        <li><a  class="list-group-item" href="#">Refurbished phones</a></li>
+        
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul class="submenulist">
+        <h5>Tablets, laptops & dongles</h5>
+       <li><a  class="list-group-item" href="#">Tablets</a></li> 
+       <li><a  class="list-group-item" href="#">Apple iPad</a></li> 
+       <li><a  class="list-group-item" href="#">Android tablets</a></li> 
+       <li><a  class="list-group-item" href="#">Laptops</a></li> 
+       <li><a  class="list-group-item" href="#">Dongles and mobile wifi</a></li> 
+      </ul>
+    </div>
+    <div class="col-md-3">
+      <ul class="submenulist">
+        <h5>Sims and Tariffs</h5>
+       <li><a  class="list-group-item" href="#">Pay Monthly sims</a></li> 
+       <li><a  class="list-group-item" href="#">Pay As You Go sims</a></li> 
+       <li><a  class="list-group-item" href="#">Tariffs</a></li> 
+        <li><a  class="list-group-item" href="#">International</a></li>
+       <li><a  class="list-group-item" href="#">Top-up</a></li> 
+      </ul>
+    </div>
+    <div class="col-md-3">
+
+    
+     <ul class="submenulist">
+      <h5>Accessories and more</h5>
+      <li><a  class="list-group-item" href="#">Tech and Accessories</a></li>
+      <li><a  class="list-group-item" href="#">Apple watch</a></li>
+      <li><a  class="list-group-item" href="#">Smartwatches</a></li>
+     <li><a  class="list-group-item" href="#">AirPods / Wireless accessories</a></li> 
+      <li><a  class="list-group-item" href="#">Great Deals</a></li>
+      <li><a  class="list-group-item" href="#">Coming soon</a></li>
+      
+     </ul>
+    </div>
+    </div>
+    </div>
+    </li>
+    <li><a href="#">Why O<sub>2</sub></a></li>
+    <li><a href="#">Help</a></li>
+  </ul>
+
+  <ul >
+    <li ><a  href="#">My O2</a></li>
+    <li ><a  href="#"><i class="bi bi-search">Search</i></a></li>
+    <li ><a  href="#"><i class="bi bi-basket3"></i></a></li>
+</ul>
+</div>
+        
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quam odit harum nihil at magni, excepturi aut, possimus blanditiis deleniti neque mollitia, facere eos natus consectetur explicabo. Consequatur placeat sint nulla pariatur est rerum temporibus ipsa dolorem a officiis! Esse alias repudiandae consectetur omnis laboriosam tempora atque minus, at vero mollitia optio, unde aperiam numquam, ea rem non id itaque dolore impedit. Tempore, fugit ipsam labore, consequuntur sed omnis pariatur quasi ullam nesciunt magnam iste sapiente quibusdam dolores consequatur esse! Laudantium architecto corrupti sapiente tempora magni dolores, non voluptatum cum rem ad ipsam praesentium, laboriosam quas accusamus dolorem tempore quod consequuntur, sequi animi dolore reiciendis facere quisquam. Suscipit rerum voluptatum accusamus nemo. Quasi veritatis cumque, suscipit nihil consequatur ipsam accusamus aut laudantium, animi aliquam, asperiores beatae possimus veniam impedit neque amet quisquam soluta. Similique beatae modi consectetur, animi quidem deserunt dignissimos. Eveniet error earum expedita suscipit cumque ratione dolore sunt explicabo sit eum in, optio minus odio consequatur nesciunt? Exercitationem cupiditate debitis nostrum vero! Asperiores rerum fuga distinctio fugit sapiente, porro in obcaecati, explicabo quam nesciunt commodi accusamus ut amet molestias totam ea sunt voluptate. Nihil, quos id sapiente tempore, dolor error sit qui aperiam sunt quod soluta. Minus rem corrupti suscipit expedita velit facilis non beatae, veritatis quos sint aperiam nihil deleniti sapiente id a quas esse recusandae blanditiis quod aspernatur tempora cupiditate. Sapiente perspiciatis repellat neque consectetur error ipsa accusamus aspernatur dolore saepe nemo sunt unde, sequi quas rerum nisi. Modi officia ab fuga beatae optio quas repellat maxime minima impedit, incidunt nobis quam voluptate distinctio laboriosam similique esse molestias. Doloribus reiciendis exercitationem nostrum eaque ipsam ullam, consequatur perferendis blanditiis obcaecati quo, quam delectus totam itaque tenetur sit officiis veniam! Quae odio ducimus qui dolorem nobis in velit consequuntur expedita adipisci autem veniam cumque delectus tenetur fugit labore suscipit laborum placeat animi ullam quasi illum eaque minus, magni ipsum. Nisi adipisci iure, delectus, voluptate quibusdam eligendi deleniti facilis, vel laborum iste eius laboriosam quas repudiandae animi debitis ducimus labore? Minima, odio nisi error impedit eum possimus necessitatibus corrupti facilis sed eos at vitae exercitationem, sint recusandae minus, cum repellendus molestiae eius! Minus vitae aspernatur voluptas repellendus et voluptatem quod, cupiditate alias, cum iste necessitatibus itaque magni veritatis reprehenderit non quia illum. Ducimus sed natus molestias laudantium voluptate, quos odit fugit possimus aliquid ipsa ipsam, rerum quod! Deleniti nesciunt soluta impedit quia vel dicta dolorem sunt ratione doloribus aliquid perferendis corporis iusto officia facilis architecto sed quibusdam nemo deserunt ullam at labore illum amet, unde est? Nobis explicabo mollitia exercitationem dolorum qui sed! Soluta quis, ullam expedita consequuntur odit quidem enim? Est dolorum porro iusto dolor id excepturi. Et dolorum quidem impedit quos sequi quis aut animi voluptas aliquid delectus eius porro ullam, expedita voluptate maxime temporibus ipsa vero ab assumenda vel neque a numquam? Consequuntur adipisci doloribus dicta vitae repellendus sunt provident, quam minima ut eligendi, qui illum ipsa itaque voluptatum voluptatibus, cum culpa maiores reiciendis dignissimos! Facere provident at corrupti voluptatum distinctio, laboriosam quae nulla sequi sint.</p>     
+
+      
+
+      
+
+       <!-- boostrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
