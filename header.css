@@ -33,15 +33,16 @@ body {
 .lefthead a {
     color: var(--text-third-color);
     margin-left: 14.6%;
-    font-size: 14px;
+    font-size: 13px;
     font-family: Frutiger55, sans-serif;
 
 }
 
+
 .Register a {
     float: right;
     color: var(--text-third-color);
-    font-size: 14px;
+    font-size: 13px;
     font-family: Frutiger55, sans-serif;
     margin-right: 20%;
 }
@@ -58,8 +59,8 @@ body {
 
 .mega-area {
     position: absolute;
-    width: 100%;
-
+    width: 121.4%;
+    margin-left: -11%; 
     left: 0;
     right: 0;
     padding: 15px;
@@ -78,6 +79,7 @@ h5 {
 h5 {
     color: var(--text-fourth-color);
     font-weight: 600;
+    margin-left: 9%;
 }
 
 .list-group {
@@ -91,6 +93,7 @@ h5 {
 .list-group-item{
     border: none;
     outline: none;
+    
 }
 .list-group-item a{
     font-family: Frutiger55, sans-serif;
@@ -113,9 +116,10 @@ h5 {
 }
 
 .navbarright li a {
-    color: var(--text-white);
-    font-size: 14px;
-    font-weight: 600;
+    color: var(--text-white)!important;
+  
+    font-size: 15px;
+    
     font-family: Frutiger55, sans-serif;
     padding: 1 2px 0;
 }

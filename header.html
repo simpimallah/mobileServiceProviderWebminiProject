@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row d-flex p-2">
                 <div class="col-lg-6 col-12 lefthead">
-                    <a href="#" class="text-dark ">Personal</a>
+                    <a href="#" class="text-dark ">Personal</a> 
 
                 </div>
                 <div class="col-lg-6 col-12 Register ml-auto righthead ">
@@ -43,12 +43,12 @@
                             <div class="collapse navbar-collapse" id="navbar">
                                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
 
-                                    <li class="nav-item dropdown menu-area">
+                                    <li class="nav-item dropdown menu-area" id="shopnav">
                                         <a class=" text-white nav-link dropdown-toggle" href="" id="mega-one"
                                             data-bs-toggle="dropdown" aria-expanded="false">
                                             Shop
                                         </a>
-                                        <div class="dropdown-menu mega-area" area-labelledly="mega-one">
+                                        <div class="dropdown-menu mega-area" area-labelledly="mega-one" id="mega-area" >
                                             <div class="row">
                                                 <div class="col-lg-3 col-sm-6 py-4 ">
                                                     <h5>Phones</h5>
@@ -109,7 +109,7 @@
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbarright">
                                     <li class="nav-item"><a class="nav-link" href="#">My O2</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#"><i
-                                                class="bi bi-search">Search</i></a></li>
+                                                class="bi bi-search pl-3"></i>  Search</a></li>
                                     <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-basket3"></i></a>
                                     </li>
                                 </ul>
@@ -149,8 +149,8 @@
 
     </span>
     <!-- side button sticky start -->
-    <img src="https://resources.digital-cloud-uk.medallia.eu/wdcuk/11422/resources/image/1591184178125_feedback-button-no-icon.png"
-        alt="" class="stickyimg">
+    <a href="#"><img src="https://resources.digital-cloud-uk.medallia.eu/wdcuk/11422/resources/image/1591184178125_feedback-button-no-icon.png"
+        alt="" class="stickyimg"></a>
 
     <!-- middle part design start -->
     <section>
@@ -251,6 +251,10 @@
 
             $('#mybtn').hover(function () {
                 $('#imgmybtn').toggle(1000)
+            })
+
+            $('#shopnav').hover(function(){
+               $('#mega-area').toggle()
             })
 
             // $(' #imgarrow3').hover(function(){
